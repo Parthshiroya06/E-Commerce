@@ -126,7 +126,7 @@ const LoginScreen = props => {
         <TouchableOpacity
           onPress={() => props.navigation.navigate('SignupScreen')}>
           <Text style={CommonStyles.textStyle(14, 'darkBlue', 'Poppins')}>
-            {'Sign up now!'}
+            {' Sign up now!'}
           </Text>
         </TouchableOpacity>
       </View>

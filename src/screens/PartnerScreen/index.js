@@ -42,7 +42,7 @@ const PartnerScreen = props => {
                 'screenBackground',
                 'Poppins_bold',
               )}>
-              {'Sing up'}
+              {'Sign up'}
             </Text>
             <Text
               style={CommonStyles.textStyle(14, 'screenBackground', 'Poppins')}>
