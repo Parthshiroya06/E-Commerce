@@ -45,12 +45,13 @@ const styles = StyleSheet.create({
     fontFamily: FontFamily['Poppins'],
   },
   toggleButton: {
-    width: responsiveWidth(3.5),
-    height: responsiveHeight(1.8),
+    width: responsiveWidth(3.4),
+    height: responsiveHeight(1.7),
     marginRight: responsiveWidth(1),
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
+
     borderColor: Colors.blue,
   },
   toggelImage: {

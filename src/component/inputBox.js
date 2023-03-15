@@ -57,8 +57,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderColor: Colors.lightGrey,
-
-    borderRightWidth: 1,
   },
   rightIcon: {
     width: responsiveWidth(12),
@@ -66,8 +64,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     borderColor: Colors.lightGrey,
-
-    borderLeftWidth: 1,
   },
 
   textInput: (width = 65) => {
