@@ -37,11 +37,10 @@ const PartnerScreen = props => {
         <View style={styles.container}>
           <View style={styles.textView}>
             <Text
-              style={CommonStyles.textStyle(
-                28,
-                'screenBackground',
-                'Poppins_bold',
-              )}>
+              style={[
+                CommonStyles.textStyle(28, 'screenBackground', 'Poppins'),
+                {fontWeight: '600'},
+              ]}>
               {'Sign up'}
             </Text>
             <Text
@@ -122,7 +121,7 @@ const PartnerScreen = props => {
               onSubmitEditing={() => inputRef5.current.focus()}
             />
 
-            <InputBox
+            {/* <InputBox
               phoneRef={inputRef5}
               leftIcon={'lock_icon'}
               rightIcon={'open_eyes'}
@@ -147,8 +146,8 @@ const PartnerScreen = props => {
                 })
               }
               onSubmitEditing={() => inputRef6.current.focus()}
-            />
-            <InputBox
+            /> */}
+            {/* <InputBox
               phoneRef={inputRef6}
               leftIcon={'lock_icon'}
               placeholder={'Confirm password'}
@@ -161,7 +160,7 @@ const PartnerScreen = props => {
                   new_password: {value: text},
                 })
               }
-            />
+            /> */}
 
             {/* <View style={styles.signInTouchView}>
               <Text style={CommonStyles.textStyle(16, 'darkGrey', 'Poppins')}>

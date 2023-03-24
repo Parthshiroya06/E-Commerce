@@ -68,11 +68,10 @@ const OtpScreen = props => {
         <View style={styles.container}>
           <View style={styles.textView}>
             <Text
-              style={CommonStyles.textStyle(
-                30,
-                'screenBackground',
-                'Poppins_bold',
-              )}>
+              style={[
+                CommonStyles.textStyle(28, 'screenBackground', 'Poppins'),
+                {fontWeight: '600'},
+              ]}>
               {'Enter OTP'}
             </Text>
           </View>
@@ -86,7 +85,7 @@ const OtpScreen = props => {
               </Text>
             </TouchableOpacity>
             <CustomButton
-              onPress={() => alert('work in Progress')}
+              onPress={() => props.navigation.navigate('BottomNavigator')}
               buttonText={'SUBMIT'}
               buttonStyle={styles.buttonStyle}
             />
