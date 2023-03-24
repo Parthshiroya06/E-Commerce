@@ -11,11 +11,11 @@ import {
   FontSize,
 } from '@resources';
 
-const CustomButton = ({onPress, buttonText, buttonStyle}) => (
+const CustomButton = ({onPress, buttonText, buttonStyle, size = 18}) => (
   <Pressable style={[styles.button, buttonStyle]} onPress={onPress}>
     <Text
       style={CommonStyles.textStyle(
-        18,
+        size,
         'screenBackground',
         'Poppins_bold',
         'center',

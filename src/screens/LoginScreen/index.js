@@ -28,12 +28,11 @@ const LoginScreen = props => {
         <View style={styles.container}>
           <View style={styles.textView}>
             <Text
-              style={CommonStyles.textStyle(
-                28,
-                'screenBackground',
-                'Poppins_bold',
-              )}>
-              {'Sing in'}
+              style={[
+                CommonStyles.textStyle(28, 'screenBackground', 'Poppins'),
+                {fontWeight: '600'},
+              ]}>
+              {'Sign in'}
             </Text>
             <Text
               style={CommonStyles.textStyle(14, 'screenBackground', 'Poppins')}>

@@ -22,7 +22,7 @@ const styles = StyleSheet.create({
   },
   loginView: {
     width: responsiveWidth(85),
-    height: responsiveHeight(75),
+    height: responsiveHeight(50),
     backgroundColor: Colors.screenBackground,
     marginTop: responsiveHeight(5),
     borderRadius: responsiveHeight(1.5),
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     marginVertical: responsiveHeight(3),
     flexDirection: 'row',
   },
-  backTouch: {alignSelf: 'center', marginVertical: 10},
+  backTouch: {alignSelf: 'center', marginTop: responsiveHeight(10)},
   backImage: {
     aspectRatio: 1,
   },
